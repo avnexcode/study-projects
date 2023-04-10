@@ -1,0 +1,25 @@
+<div class="container">
+  <form method="post" action="/add-contact">
+    <div class="mb-3">
+      <label for="username" class="form-label">Name : </label>
+      <input type="text" class="form-control" id="username" name="username" />
+    </div>
+    <div class="mb-3">
+      <label for="phoneNumber" class="form-label">Phone : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="phoneNumber"
+        name="phoneNumber"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" name="email" />
+    </div>
+    <div class="d-flex justify-content-between">
+      <a href="/contact">Kembali</a>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>

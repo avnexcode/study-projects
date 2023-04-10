@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 5px solid wheat;
+}
+.container input {
+    padding: 5px;
+    margin: 10px;
+    width: 60%;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.container div {
+    width: 30px;
+    height: 30px;
+    border: 3px solid whitesmoke;
+}
+.container .red {
+    background-color: red;
+}
+.container .green {
+    background-color: green;
+}
+.container .blue {
+    background-color: blue;
+}
+.container .rgbBox {
+    width: 50%;
+    height: 10vh;
+    background-color: #333;
+    border: 5px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container .rgbBox {
+    color: white;
+}

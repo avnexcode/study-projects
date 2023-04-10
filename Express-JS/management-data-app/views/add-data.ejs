@@ -1,0 +1,22 @@
+<div class="container d-flex w-100 justify-content-start mt-3">
+  <div class="w-50">
+    <% if (typeof errors != "undefined") { %> 
+      <div class="alert alert-danger" role="alert">
+        <% errors.forEach(error => { %>
+          <p><%- error.msg %></p>
+        <% }) %> 
+      </div>
+    <% } %>
+    <form method="post" action="/add-data">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" name="username" />
+        <label for="nohp" class="form-label">No. HP</label>
+        <input type="text" class="form-control" id="nohp" name="nohp" />
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" />
+      </div>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+  </div>
+</div>

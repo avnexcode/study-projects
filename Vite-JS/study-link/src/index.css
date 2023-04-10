@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --firstColor: #1a1a1a;
+    --secondColor: #616571;
+    --thirdColor: #3a3f47;
+    --fourthColor: #60686a;
+    --fifthColor: #333333;
+    --sixthColor: #f7c873;
+    --seventhColor: #faebcd;
+    --eighthColor: #f8f8f8;
+    --ninthColor: #93deff;
+    --tenthColor: #f7f7f7;
+    --eleventhColor: #4fcca3;
+    --twelfthColor: #eeeeee;
+    --thirteenColor: #719192;
+    --fourteenthColor: #dfcdc3;
+    --fifteenthColor: #ff1f57;
+    --seventeenthColor: #ffac42;
+  }
+  body {
+    @apply bg-[var(--firstColor)] text-[var(--fifteenthColor)];
+  }
+  h1 {
+    @apply text-2xl mb-4 border-b-2 border-b-[var(--seventeenthColor)] text-[var(--seventhColor)];
+  }
+}

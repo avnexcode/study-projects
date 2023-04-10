@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#list-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#list-data .container ul {
+  list-style-type: none;
+}
+
+#list-data .first-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#list-data .first-container form input {
+  padding: 5px 10px;
+  width: 250px;
+  border-radius: 7px;
+  font-size: 1.2rem;
+}
+
+#list-data .first-container form button {
+  padding: 6px;
+  cursor: pointer;
+}
+
+#list-data .second-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#list-data .second-container ul {
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 1rem;
+  min-width: 250px;
+  max-width: 250px;
+  text-align: center;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#list-data .second-container ul li:nth-child(1) {
+  color: black;
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#list-data .second-container ul li:nth-child(2) {
+  color: black;
+  text-decoration: none;
+}
+#list-data .second-container ul li:nth-child(3) {
+  color: black;
+  text-decoration: none;
+}
+
+#list-data .third-container {
+  margin-top: 1.3rem;
+}
+
+#list-data .third-container ul {
+  display: flex;
+  gap: 10px;
+}
+
+#list-data .third-container ul li {
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 1rem;
+}
+
+#list-data .third-container ul li a {
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+}

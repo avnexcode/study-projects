@@ -1,0 +1,3 @@
+Kamu yakin mau membuka pesan yang aku tulis untukmu? Jika yakin dan
+          mau lanjut tekan Y untuk lanjut. Jika masih ragu tekan N untuk
+          kembali.

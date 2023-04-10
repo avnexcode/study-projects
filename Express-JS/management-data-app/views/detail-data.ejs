@@ -1,0 +1,26 @@
+<div class="container mt-3">
+  <div class="card" style="width: 18rem">
+    <div class="card-body">
+      <h5 class="card-title"><%= data.username %></h5>
+      <div class="mt-2 mb-2">
+        <a
+          type="button"
+          href="/data/delete/<%= data.username %>"
+          class="btn btn-danger btn-sm"
+          onclick="return confirm('are you sure?')"
+          >Delete</a
+        >
+        <a
+          type="button"
+          href="/data/edit/<%= data.username %>"
+          class="btn btn-secondary btn-sm"
+          >Edit</a
+        >
+      </div>
+      <h6 class="card-subtitle mb-2 text-muted">Detail :</h6>
+      <p class="card-text">No. Hp : <%= data.nohp %></p>
+      <p class="card-text">Email : <%= data.email %></p>
+      <a type="button" href="/data" class="btn btn-primary btn-sm">List Data</a>
+    </div>
+  </div>
+</div>
